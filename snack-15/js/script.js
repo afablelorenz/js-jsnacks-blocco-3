@@ -3,7 +3,20 @@ let palla1 = {
     peso: '10'
 };
 
-let userPeso = Number.parseInt(prompt('Inserire il peso della pala'),10);
+
+
 console.log(palla1);
-palla1.peso = userPeso;
+modificaPesoPalla();
 console.log(palla1);
+
+function modificaPesoPalla(){
+    let choice = prompt('vuole cambiare il peso della palla?');
+    if(choice === 'si'){
+        let userPeso = Number.parseInt(prompt('Inserire il peso della pala'),10);
+        palla1.peso = userPeso;
+    }else if(choice === 'no'){
+        alert('ciao');
+    }else{
+        alert('inserire una risposta valida');
+    }
+}
