@@ -62,12 +62,12 @@ let personAgeCheck = [];
 persone.forEach((eta,i) => {
     personAgeCheck.push(persone[i].nome);
     personAgeCheck.push(persone[i].cognome);
-    if(persone[i].eta >= '18'){
+    if(persone[i].eta >= 18){
         personAgeCheck.push(persone[i].eta = 'Puoi guidare');
-        console.log('maggiore');
+        
     }else{
+        console.log(persone[i].eta);
         personAgeCheck.push(persone[i].eta = 'Non puoi guidare');
-        console.log('minore');
     }
 });
 console.log(personAgeCheck);
