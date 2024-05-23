@@ -1,9 +1,7 @@
 let palla1 = {
     nome: 'palla',
-    peso: '10'
+    peso: 10, 
 };
-
-
 
 console.log(palla1);
 modificaPesoPalla();
