@@ -7,59 +7,59 @@ const persone = [
     {
         nome: 'persona1',
         cognome: 'person1',
-        eta: '21'
+        eta: 21
     },
     {
         nome: 'persona2',
         cognome: 'person2',
-        eta: '12'
+        eta: 12
     },
     {
         nome: 'persona3',
         cognome: 'person3',
-        eta: '43'
+        eta: 43
     },
     {
         nome: 'persona4',
         cognome: 'person4',
-        eta: '4'
+        eta: 4
     },
     {
         nome: 'persona5',
         cognome: 'person5',
-        eta: '54'
+        eta: 54
     },
     {
         nome: 'persona6',
         cognome: 'person6',
-        eta: '36'
+        eta: 36
     },
     {
         nome: 'persona7',
         cognome: 'person7',
-        eta: '27'
+        eta: 27
     },
     {
         nome: 'persona8',
         cognome: 'person8',
-        eta: '87'
+        eta: 87
     },
     {
         nome: 'persona9',
         cognome: 'person9',
-        eta: '16'
+        eta: 16
     },
     {
         nome: 'persona10',
         cognome: 'person10',
-        eta: '100'
+        eta: 100
     },
 ];
 
 
 let personAgeCheck = [];
 
-persone.forEach((eta,i) => {
+persone.forEach((element,i) => {
     personAgeCheck.push(persone[i].nome);
     personAgeCheck.push(persone[i].cognome);
     if(persone[i].eta >= 18){
